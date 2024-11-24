@@ -1,6 +1,11 @@
-### Technical Toolkit: Python, Deep Learning (PyTorch, TensorFlow) Azure Machine Learning, PowerBI, Alteryx
-### Technical Skills: Computer Vision, LLM, NLP, Azure Machine Learning, A/B Testing, Statistical Modeling
-### Soft Skills: Project Management, Stakeholder Collaboration
+## Hello, world
+
+Thank you for stopping by! I specialize in transforming data into actionable insights and delivering AI solutions that solve real-world problems. I’m passionate about leveraging analytics to guide decisions before execution, ensuring strategies are grounded in data and optimized for impact. I thrive in collaborative environments, partnering with cross-functional teams to bring innovative ideas to life. I’m committed to driving data-powered solutions that make a measurable difference. I also love the great outdoors, running, cycling and meaningful conversations!
+
+## Skills
+# Toolkit: Python, SQL, Azure Machine Learning, Azure Databricks, PowerBI, Tableau, Alteryx
+# Technical Skills: Deep Learning (PyTorch, TensorFlow), Computer Vision, LLM, NLP, A/B Testing, Statistical Modeling
+# Soft Skills: Project Management, Stakeholder Collaboration
 
 ## Education								       		
 - M.S., Artificial Intelligence	| Nanyang Technological University (_Aug 2024-2026_)
