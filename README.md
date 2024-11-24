@@ -45,7 +45,7 @@ This project aims to empower individuals to improve their running / walking post
 In the pursuit of a healthy lifestyle, many individuals turn to running or walking as a form of exercise. However, poor running or walking posture can lead to unnecessary stress and strain on muscles and joints, and hindered progress towards fitness goals. Poor posture can cause pain and injuries in up to 79% of adults. Poor posture may stem from various factors, such as fatigue, lack of awareness, or even ill-fitted running shoes. Understanding and correcting posture can be the key to preventing injuries and optimizing performance. 
 Model was deployed via the Streamlit app, and can ingest a image / video to identify people with poor posture in real time.
 
-
+![Project Screenshot](images/streamlit-app-demo.gif)
 
 ### 3D Reconstruction of images using Structure from Motion (COLMAP)
 [Link to repo](https://github.com/tiffanytgr/MSAI_6121_compvision/tree/main/Project)
@@ -54,4 +54,4 @@ Structure-from-Motion (SfM) is a widely used computer vision technique that reco
 COLMAP, we streamlined the reconstruction process to handle camera calibration, feature matching, and 3D point cloud generation efficiently.
 
 Example of reconstructing a Structure:
-![Project Screenshot](images/ntu-confucius.png)
+![Project Screenshot](images/ntu-confucius.jpg)
