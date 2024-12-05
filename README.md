@@ -26,13 +26,13 @@ I thrive in collaborative environments, partnering with cross-functional teams t
 - Partnering with Microsoft as a Copilot Advocate, integrating AI-driven solutions into operations and fostering AI adoption within the organization.
 - Conducting research into cutting-edge AI solutions tailored for the logistics sector, including applications in predictive analytics, route optimization, and supply chain resilience to enhance operational efficiency and reduce costs.
 
-**APAC Data Analyst, Supply Chain Excellence @ Johnson & Johnson (_Dec 2021 - Dec 2023_)**
+**APAC Data Scientist, Supply Chain Excellence @ Johnson & Johnson (_Dec 2021 - Dec 2023_)**
 - Automated reporting pipelines using Alteryx, Python, and PowerQuery, improving reporting accuracy to 95% and saving 3 hours per week.
 - Designed and implemented PowerBI dashboards to enhance portfolio visibility, resulting in cost-savings of ~500K USD by enabling leadership to prioritize high-impact projects.
 - Developed and deployed demand forecasting models (ARIMA, Random Forest) with a 10% accuracy improvement,optimizing supply chain performance by reduction in inventory levels of 10%. 
 - Built a POC Python-based web scraping tool to track shipment locations, increasing real-time supply chain transparency.
 
-**Senior Associate, Regional Operations @ Ninja Van (_July 2019 - Nov 2021_)**
+**Senior Data Analyst, Regional Operations @ Ninja Van (_July 2019 - Nov 2021_)**
 - Collaborated with regional COOs to streamline operational workflows, improving cross-functional alignment and enhancing operational effectiveness.
 - Created and optimized SQL queries for logistics operations, enhancing query efficiency by 25% and supporting data-driven decision-making.
 - Automated weekly reports with Python, reducing reporting time by 15% and enabling teams to prioritize strategic projects.
