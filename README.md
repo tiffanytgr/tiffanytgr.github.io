@@ -34,8 +34,10 @@ Passionate about using AI to make a difference. I believe technology should empo
 
 ## 💼 Work Experience
 
-**Data Scientist, AI Hub**  
+**Data Scientist, Supply Chain, AI Hub**  
 _Louis Dreyfus Company (Jun 2025 – Present)_  
+- Lead product management for proprietary vessel tracking platform serving 1,000+ monthly active users across 20 countries, driving cross-platform adoption and AI feature integration
+- Part of theSingapore AI Hub, developing digital twin solutions to optimize global supply chain operations
 
 **Assistant Manager, Data Scientist**  
 _SATS Ltd (Jan 2024 – Jun 2025)_  
@@ -49,8 +51,8 @@ _SATS Ltd (Jan 2024 – Jun 2025)_
 ## 🚀 Projects
 
 ### [Meet Again](https://meet-again-1.web.app/)
-> Track meaningful interactions and strengthen relationships. Never forget the moments that matter most.
-![Project Screenshot](images/meet-again.gif)
+> Personal project that helps to track meaningful interactions and strengthen relationships. Never forget the moments that matter most.
+![Project Screenshot](images/meet-again.png)
 
 ### [Posture Analysis using Mediapipe](https://github.com/tiffanytgr/posture-analysis-app)
 > Classification app to improve running/walking posture with real-time CV and Streamlit deployment.
