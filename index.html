@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiffany Tan | Data Scientist & AI Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: #1a1a1a;
+            background-color: #fefefe;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border-bottom: 1px solid #e2e8f0;
+            padding: 3rem 2rem;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: 
+                radial-gradient(circle at 20% 20%, rgba(120, 119, 198, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(255, 119, 198, 0.03) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(120, 219, 226, 0.03) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .profile-section {
+            flex: 1;
+        }
+
+        .name {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.75rem;
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .title {
+            font-size: 1.3rem;
+            color: #475569;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+        }
+
+        .contact-info {
+            display: flex;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-link {
+            color: #4f46e5;
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            padding: 0.25rem 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .contact-link:hover {
+            border-bottom-color: #4f46e5;
+            color: #3730a3;
+        }
+
+        .main-content {
+            padding: 2.5rem 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.75rem;
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 3rem;
+            height: 3px;
+            background: linear-gradient(90deg, #4f46e5, #7c3aed);
+            border-radius: 2px;
+        }
+
+        .about {
+            font-size: 1.05rem;
+            line-height: 1.7;
+            color: #374151;
+            margin-bottom: 1.5rem;
+        }
+
+        .current-focus {
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            padding: 1.25rem;
+            border-left: 4px solid #0ea5e9;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+        }
+
+        .current-focus strong {
+            color: #0c4a6e;
+            font-weight: 600;
+        }
+
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .skill-group {
+            background: #fafafa;
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid #e5e7eb;
+            transition: all 0.2s ease;
+        }
+
+        .skill-group:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.05);
+        }
+
+        .skill-group h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 0.75rem;
+        }
+
+        .skill-list {
+            color: #4b5563;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .experience-item {
+            border: 1px solid #e5e7eb;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            background: #fefefe;
+            position: relative;
+            transition: all 0.2s ease;
+        }
+
+        .experience-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, #4f46e5, #7c3aed);
+            border-radius: 2px 0 0 2px;
+        }
+
+        .experience-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+        }
+
+        .job-header {
+            margin-bottom: 1.25rem;
+        }
+
+        .job-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #111827;
+            margin-bottom: 0.5rem;
+        }
+
+        .company-info {
+            color: #6b7280;
+            font-size: 0.95rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 400;
+        }
+
+        .achievements {
+            list-style: none;
+            display: grid;
+            gap: 0.75rem;
+        }
+
+        .achievements li {
+            padding-left: 1.5rem;
+            position: relative;
+            color: #374151;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .achievements li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #4f46e5;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+
+        .project-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 16px;
+            padding: 0;
+            background: #fefefe;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            border-color: #c7d2fe;
+        }
+
+        .project-header {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            color: white;
+            padding: 1.5rem;
+        }
+
+        .project-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-subtitle {
+            opacity: 0.9;
+            font-weight: 400;
+        }
+
+        .project-body {
+            padding: 1.5rem;
+        }
+
+        .project-description {
+            color: #4b5563;
+            font-size: 0.95rem;
+            margin-bottom: 1.25rem;
+            line-height: 1.6;
+        }
+
+        .tech-stack {
+            margin: 1.25rem 0;
+        }
+
+        .tech-stack-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #6b7280;
+            margin-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tech-tag {
+            background: linear-gradient(135deg, #f1f5f9, #e2e8f0);
+            color: #475569;
+            padding: 0.3rem 0.7rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 500;
+            border: 1px solid #e2e8f0;
+        }
+
+        .project-link {
+            color: #4f46e5;
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: color 0.2s ease;
+        }
+
+        .project-link:hover {
+            color: #3730a3;
+        }
+
+        .education-grid {
+            display: grid;
+            gap: 1.25rem;
+        }
+
+        .education-item {
+            display: grid;
+            grid-template-columns: 2fr 2fr 1fr;
+            gap: 1.25rem;
+            padding: 1rem 0;
+            border-bottom: 1px solid #f3f4f6;
+            align-items: center;
+        }
+
+        .education-item:last-child {
+            border-bottom: none;
+        }
+
+        .degree {
+            font-weight: 600;
+            color: #111827;
+        }
+
+        .institution {
+            color: #6b7280;
+        }
+
+        .duration {
+            color: #9ca3af;
+            font-size: 0.9rem;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .footer {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border-top: 1px solid #e2e8f0;
+            padding: 3rem 2rem;
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .footer h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 1rem;
+        }
+
+        .footer p {
+            color: #475569;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .seeking {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-top: 1.5rem;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        .seeking strong {
+            color: #111827;
+        }
+
+        .fun-fact {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border-left: 4px solid #f59e0b;
+            padding: 1.25rem;
+            border-radius: 0 8px 8px 0;
+            margin: 1.5rem 0;
+            font-style: italic;
+        }
+
+        .fun-fact::before {
+            content: '🌟 ';
+            margin-right: 0.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .name {
+                font-size: 2.25rem;
+            }
+            
+            .contact-info {
+                justify-content: center;
+            }
+            
+            .skills-container,
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .education-item {
+                grid-template-columns: 1fr;
+                gap: 0.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <div class="profile-section">
+                    <h1 class="name">Tiffany Tan</h1>
+                    <p class="title">Data Scientist & AI Engineer</p>
+                    <div class="contact-info">
+                        <a href="https://linkedin.com/in/tiffanytgr" class="contact-link">LinkedIn</a>
+                        <a href="mailto:tiffanytan.gr@gmail.com" class="contact-link">tiffanytan.gr@gmail.com</a>
+                        <a href="https://medium.com/@tiffany.tgr" class="contact-link">Medium</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <section class="section">
+                <h2 class="section-title">About</h2>
+                <p class="about">
+                    AI/ML Engineer with a passion for turning complex data into meaningful solutions. Currently pursuing my M.S. in Artificial Intelligence at NTU while leading data science initiatives at Louis Dreyfus Company's Singapore AI Hub. I believe the best AI systems are those that seamlessly integrate into real workflows and genuinely improve people's daily experiences.
+                </p>
+                <div class="current-focus">
+                    <strong>Current Focus:</strong> Digital twins, vessel tracking systems, and AI-powered supply chain optimization
+                </div>
+                <div class="fun-fact">
+                    When I'm not optimizing supply chains, you'll find me exploring Singapore's running trails or brewing the perfect cup of coffee while debugging code.
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Technical Skills</h2>
+                <div class="skills-container">
+                    <div class="skill-group">
+                        <h4>Programming & Data</h4>
+                        <div class="skill-list">Python, SQL, R, Git</div>
+                    </div>
+                    <div class="skill-group">
+                        <h4>AI/ML Frameworks</h4>
+                        <div class="skill-list">TensorFlow, PyTorch, OpenCV, Scikit-learn, YOLO, MediaPipe</div>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Cloud & Tools</h4>
+                        <div class="skill-list">Azure ML, Power BI, Docker, Streamlit</div>
+                    </div>
+                    <div class="skill-group">
+                        <h4>Specializations</h4>
+                        <div class="skill-list">Computer Vision, NLP, Deep Learning, MLOps, Supply Chain Analytics</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Professional Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h3 class="job-title">Data Scientist, Supply Chain AI Hub</h3>
+                        <p class="company-info">Louis Dreyfus Company • June 2025 – Present</p>
+                    </div>
+                    <ul class="achievements">
+                        <li>Product Leadership: Managing proprietary vessel tracking platform with 1,000+ MAU across 20 countries</li>
+                        <li>Innovation: Developing digital twin solutions for global supply chain optimization</li>
+                        <li>Impact: Driving AI feature integration and cross-platform adoption</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="job-header">
+                        <h3 class="job-title">Assistant Manager, Data Scientist</h3>
+                        <p class="company-info">SATS Ltd • January 2024 – June 2025</p>
+                    </div>
+                    <ul class="achievements">
+                        <li>Computer Vision Solution: Led cargo tracking project using YOLO object detection and OCR</li>
+                        <li>Business Impact: Reduced missing shipments by 50% (200→100/month), avoided $80K annual penalties</li>
+                        <li>Operational Efficiency: 30% reduction in search time, 15% decrease in dwell time</li>
+                        <li>AI Agent Development: Built LLM-powered system for flight disruption data extraction with Teams integration</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Education</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <div class="degree">M.S. Artificial Intelligence</div>
+                        <div class="institution">Nanyang Technological University</div>
+                        <div class="duration">2024-2026</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="degree">B.S. Chemical Engineering</div>
+                        <div class="institution">National University of Singapore</div>
+                        <div class="duration">2015-2019</div>
+                    </div>
+                    <div class="education-item">
+                        <div class="degree">Data Science Immersive</div>
+                        <div class="institution">General Assembly</div>
+                        <div class="duration">2024</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Meet Again</h3>
+                            <p class="project-subtitle">Relationship Management App</p>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Because meaningful connections shouldn't get lost in our busy lives. A full-stack app that helps track interactions and strengthen professional relationships with intelligent reminders and insights.
+                            </p>
+                            <div class="tech-stack">
+                                <div class="tech-stack-label">Tech Stack</div>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Firebase</span>
+                                    <span class="tech-tag">Node.js</span>
+                                </div>
+                            </div>
+                            <a href="https://meet-again-1.web.app/" class="project-link">View Live Demo →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">Posture Perfect</h3>
+                            <p class="project-subtitle">Real-time Computer Vision</p>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Your personal running coach in your pocket. Uses MediaPipe and deep learning to analyze posture in real-time, helping runners improve form and prevent injuries.
+                            </p>
+                            <div class="tech-stack">
+                                <div class="tech-stack-label">Tech Stack</div>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">MediaPipe</span>
+                                    <span class="tech-tag">Streamlit</span>
+                                    <span class="tech-tag">OpenCV</span>
+                                </div>
+                            </div>
+                            <a href="https://github.com/tiffanytgr/posture-analysis-app" class="project-link">View on GitHub →</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3 class="project-title">3D Scene Reconstruction</h3>
+                            <p class="project-subtitle">Structure-from-Motion Research</p>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-description">
+                                Bringing 2D memories into 3D reality. Advanced computer vision research using COLMAP for reconstructing detailed 3D scenes from simple photo sequences.
+                            </p>
+                            <div class="tech-stack">
+                                <div class="tech-stack-label">Tech Stack</div>
+                                <div class="tech-tags">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">COLMAP</span>
+                                    <span class="tech-tag">Computer Vision</span>
+                                </div>
+                            </div>
+                            <a href="https://github.com/tiffanytgr/MSAI_6121_compvision" class="project-link">View Research →</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <h3>Let's Connect</h3>
+            <p>Always excited to chat about AI innovations, supply chain optimization, or that perfect running route in Singapore. Coffee meetings welcome!</p>
+            <div class="seeking">
+                <strong>Currently seeking:</strong> AI/ML roles in computer vision, autonomous systems, or innovative tech companies where I can build products that genuinely improve people's lives
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
