@@ -16,8 +16,8 @@ Passionate about using AI to make a difference. I believe technology should empo
 ![AzureML](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?logo=powerbi&logoColor=black)
 
-**Technical:** AI/ML, Deep Learning, Computer Vision, LLM, NLP, Supply Chain Optimization 
-**Soft:** Product Management, Project Management, Stakeholder Collaboration
+- **Technical:** AI/ML, Deep Learning, Computer Vision, LLM, NLP, Supply Chain Optimization 
+- **Soft:** Product Management, Project Management, Stakeholder Collaboration
 
 ---
 
@@ -37,14 +37,18 @@ Passionate about using AI to make a difference. I believe technology should empo
 **Data Scientist, Supply Chain, AI Hub**  
 _Louis Dreyfus Company (Jun 2025 – Present)_  
 - Lead product management for proprietary vessel tracking platform serving 1,000+ monthly active users across 20 countries, driving cross-platform adoption and AI feature integration
-- Part of theSingapore AI Hub, developing digital twin solutions to optimize global supply chain operations
+- Part of the Singapore AI Hub, developing digital twin solutions to optimize global supply chain operations
 
 **Assistant Manager, Data Scientist**  
 _SATS Ltd (Jan 2024 – Jun 2025)_  
-- Led a project for Cargo team to use Computer Vision to locate shipments within the Airfreight Terminal. Use YOLO for Object Detection of shipments and OCR to for identification. Reduced missing shipments from 200 to less than 100 monthly, cost avoidance due to reduction in penalties by s$80K yearly. Reduction in manhours spent searching for shipments by 30%, and reduction in dwell time of shipments by 15%. Developed it from a MVP to a production-level solution.
+- Led a project for Cargo team to use Computer Vision to locate shipments within the Airfreight Terminal. Use YOLO for Object Detection of shipments and OCR to for identification. Reduced missing shipments from 200 to less than 100 monthly, cost avoidance due to reduction in penalties by ~S$100K yearly. Reduction in manhours spent searching for shipments by 30%, and reduction in dwell time of shipments by 15%. Developed it from a MVP to a production-level solution.
 - Designed and deployed an AI-powered agent in Azure to automatically extract cancelled and rescheduled flight data from unstructured TELEX-style messages, emails, and SQL databases. Integrated LLM-based reasoning to interpret inconsistent formats and identify relevant records, consolidating results into a structured dataset. Built a Teams chat interface for operational staff to query disruptions in real time, reducing manual data extraction.
 
-...
+**Data Analytics & Science, APAC Supply Chain Excellence**  
+_Johnson & Johnson (_Dec 2021 - Dec 2023_)**
+- Automated reporting pipelines using Alteryx, Python, and PowerQuery, improving reporting accuracy to 95% and saving 3 hours per week.
+- Designed and implemented PowerBI dashboards to enhance portfolio visibility, resulting in cost-savings of ~500K USD by enabling leadership to prioritize high-impact projects.
+- Developed and deployed demand forecasting models (ARIMA, Random Forest) with a 10% accuracy improvement,optimizing supply chain performance by reduction in inventory levels of 10%. 
 
 ---
 
