@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Tiffany!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tiffanytgr/)
-[![Medium](https://img.shields.io/badge/Medium-black?logo=medium&logoColor=white)](https://medium.com/@tiffany.tgr))
+[![Medium](https://img.shields.io/badge/Medium-black?logo=medium&logoColor=white)](https://medium.com/@tiffany.tgr)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tiffanytan.gr@gmail.com)
 
 ---
@@ -15,9 +15,8 @@ Passionate about using AI to make a difference. I believe technology should empo
 ![SQL](https://img.shields.io/badge/SQL-4479A1?logo=postgresql&logoColor=white)
 ![AzureML](https://img.shields.io/badge/Azure-0078D4?logo=microsoft-azure&logoColor=white)
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?logo=powerbi&logoColor=black)
-...
 
-**Technical:** AI/ML, Deep Learning, Computer Vision, LLM, NLP, Statistical Modeling  
+**Technical:** AI/ML, Deep Learning, Computer Vision, LLM, NLP, Supply Chain Optimization 
 **Soft:** Product Management, Project Management, Stakeholder Collaboration
 
 ---
@@ -48,6 +47,10 @@ _SATS Ltd (Jan 2024 – Jun 2025)_
 ---
 
 ## 🚀 Projects
+
+### [Meet Again](https://meet-again-1.web.app/)
+> Track meaningful interactions and strengthen relationships. Never forget the moments that matter most.
+![Project Screenshot](images/meet-again.gif)
 
 ### [Posture Analysis using Mediapipe](https://github.com/tiffanytgr/posture-analysis-app)
 > Classification app to improve running/walking posture with real-time CV and Streamlit deployment.
