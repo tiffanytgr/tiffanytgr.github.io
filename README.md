@@ -1,12 +1,11 @@
 # 👋 Hi, I'm Tiffany!
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-linkedin-username/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tiffanytgr/)
 [![Medium](https://img.shields.io/badge/Medium-black?logo=medium&logoColor=white)](https://medium.com/@your-medium-username)
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:your.email@example.com)
 
 ---
-
-Passionate about using AI to make a difference - no matter how big or small. I enjoy the great outdoors, running, cycling, and engaging in meaningful conversations.
+Passionate about using AI to make a meaningful difference — whether it’s streamlining global logistics or solving day-to-day challenges. I believe technology should empower people, not replace them. Outside of work, you’ll find me exploring the outdoors, running, cycling, and enjoying meaningful conversations that spark new ideas.
 ---
 
 ## 🛠 Skills
