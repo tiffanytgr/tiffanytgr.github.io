@@ -1,11 +1,11 @@
 # 👋 Hi, I'm Tiffany!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tiffanytgr/)
-[![Medium](https://img.shields.io/badge/Medium-black?logo=medium&logoColor=white)](https://medium.com/@your-medium-username)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:your.email@example.com)
+[![Medium](https://img.shields.io/badge/Medium-black?logo=medium&logoColor=white)](https://medium.com/@tiffany.tgr))
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tiffanytan.gr@gmail.com)
 
 ---
-Passionate about using AI to make a meaningful difference — whether it’s streamlining global logistics or solving day-to-day challenges. I believe technology should empower people, not replace them. Outside of work, you’ll find me exploring the outdoors, running, cycling, and enjoying meaningful conversations that spark new ideas.
+Passionate about using AI to make a difference. I believe technology should empower us to do what we love. Outside of work, you’ll find me exploring the outdoors, running, cycling, and enjoying meaningful conversations that spark new ideas.
 ---
 
 ## 🛠 Skills
@@ -17,8 +17,8 @@ Passionate about using AI to make a meaningful difference — whether it’s str
 ![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?logo=powerbi&logoColor=black)
 ...
 
-**Technical:** Deep Learning, Computer Vision, LLM, NLP, A/B Testing, Statistical Modeling  
-**Soft:** Project Management, Stakeholder Collaboration
+**Technical:** AI/ML, Deep Learning, Computer Vision, LLM, NLP, Statistical Modeling  
+**Soft:** Product Management, Project Management, Stakeholder Collaboration
 
 ---
 
