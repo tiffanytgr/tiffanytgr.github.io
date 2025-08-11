@@ -5,7 +5,7 @@
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:tiffanytan.gr@gmail.com)
 
 ---
-Passionate about using AI to make a difference. I believe technology should empower us to do what we love. Outside of work, you’ll find me exploring the outdoors, running, cycling, and enjoying meaningful conversations that spark new ideas.
+Passionate about continuously learning and using AI to make a difference. I believe technology should empower us to do what we love. Outside of work, you’ll often find me out in nature—running, cycling, or hiking—or deep in conversations that spark fresh ideas. Always excited to chat about AI innovations, supply chain optimization, or simply to exchange stories and perspectives.
 ---
 
 ## 🛠 Skills
@@ -25,7 +25,7 @@ Passionate about using AI to make a difference. I believe technology should empo
 
 | Degree/Program                  | Institution                        | Duration                  |
 |----------------------------------|------------------------------------|---------------------------|
-| **M.S. Artificial Intelligence** | Nanyang Technological University   | Aug 2024 – Exp. 2026      |
+| **M.S. Artificial Intelligence** | Nanyang Technological University   | Aug 2024 – Aug 2026      |
 | **B.S. Chemical Engineering**    | National University of Singapore   | Aug 2015 – Jun 2019       |
 | **Data Science Immersive**       | General Assembly                   | Jun 2024 – Dec 2024       |
 | **GCE 'A' Levels**               | Hwa Chong Institution              | Jan 2013 – Dec 2014       |
